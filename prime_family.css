@@ -36,6 +36,7 @@ header h1 span{
     color: blue;
 }
 header{
+    width: 100%;
     position: fixed;
     line-height: 1rem;
         font-family: 'MyFont4',sans-serif;
