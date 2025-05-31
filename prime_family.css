@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+/* Regular */
+@font-face {
+    font-family: 'MyFont1';
+    src: url('fonts\helvetica\Helvetica Condensed Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'MyFont2';
+    src: url('fonts\Helvetica-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Bold-giant */
+@font-face {
+    font-family: 'MyFont4';
+    src: url('fonts\Helvetica-Bold.ttf') format('ttf');
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'MyFont3';
+    src: url('fonts\helvetica\Helvetica-LightOblique.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+header h1 span{
+    color: blue;
+}
+header{
+    line-height: 1rem;
+        font-family: 'MyFont4',sans-serif;
+    color: white;
+    font-size: 0.7rem;
+        border: solid none;
+        background-color: rgb(13, 17, 56);
+        padding: 1.3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+#user{
+    border: solid;
+    background-color: white;
+    border-radius: 50%;
+}
+#icons{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*booking*/
+.booking{
+    background-color: rgba(128, 128, 128, 0.103);
+    border :none ;
+    border-radius: 1em;
+    padding: 1em;
+}
+.about button, .booking button{
+    font-size: 1rem;
+        font-family: 'MyFont4', sans-serif;
+    border: none;
+    border-radius: 0.7em;
+    padding: 1.2em;
+    color: white;
+    background-color: rgb(33, 33, 230);
+    margin-top: 3em;
+    width: 100%;
+}
+.booking p{
+    color: rgb(67, 67, 107);
+    margin-top: 1em;
+        font-family: 'MyFont4', sans-serif;
+}
+.booking h1{
+        line-height: 1.2em;
+    font-size: 2.5rem;
+    font-family: 'MyFont4', sans-serif;
+    color: rgb(13, 17, 56);
+}
+.container_1 img{
+    margin-top: 0.5em;
+        border-radius: 1em;
+    width: 100%;
+}
+.container_1{
+    margin-bottom: 5em;
+}
+/*ABOUT US*/
+.about{
+        font-family: 'MyFont4', sans-serif;
+    text-align: center;
+}
+.about h4{
+    border: none;
+    color: rgba(59, 121, 214, 0.788);
+    margin-bottom: 2em;
+}
+.about h1,p{
+        color: rgb(13, 17, 56);
+}
