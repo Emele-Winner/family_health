@@ -80,7 +80,8 @@ main{
     margin-top: 3em;
     width: 100%;
 }
-.booking p{
+.booking p,.services p,.about p,.Consultations p{
+    line-height: 1.4em;
     color: rgb(67, 67, 107);
     margin-top: 1em;
         font-family: 'MyFont4', sans-serif;
@@ -96,19 +97,27 @@ main{
         border-radius: 1em;
     width: 100%;
 }
-.container_1{
+.container_1,.about,.services{
     margin-bottom: 5em;
 }
 /*ABOUT US*/
-.about{
+.about,.services{
         font-family: 'MyFont4', sans-serif;
     text-align: center;
 }
-.about h4{
+.services h4, .about h4{
     border: none;
     color: rgba(59, 121, 214, 0.788);
     margin-bottom: 2em;
 }
-.about h1,p{
+.services h1,.about h1,p{
         color: rgb(13, 17, 56);
+}
+/*services*/
+.services p{
+    margin-bottom: 2em;
+}
+.Consultations{
+        margin-bottom: 2em;
+    text-align: left;
 }
