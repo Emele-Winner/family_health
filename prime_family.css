@@ -8,7 +8,12 @@
     font-weight: 400;
     font-style: normal;
 }
-
+h4 span{
+    background-color: rgba(135, 207, 235, 0.219);
+    padding: 0.4em;
+    border-radius: 0.5em;
+        color: rgb(67, 67, 107);
+}
 /* Bold */
 @font-face {
     font-family: 'MyFont2';
@@ -120,4 +125,20 @@ main{
 .Consultations{
         margin-bottom: 2em;
     text-align: left;
+}
+.Consultations img{
+    border-radius: 2em;
+}
+.insights{
+        font-family: 'MyFont4', sans-serif;
+            background-color: rgb(33, 33, 230);
+            padding: 2em;
+                color: white;
+}
+.insights button{
+        color: white;
+}
+.title{
+        color: white;
+    text-align: center;
 }
